@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+
+.toggle-mio{
+	background-color: transparent;
+	color: whitesmoke;
+	border: none;
+}
+
+#insta{
+	background-image: url(../img/fondo.jpg);
+	height: 700px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+
+.imagen{
+	width: 300px;
+    margin-left: 80px;
+}
+
+.primer-input{
+	margin-bottom: 20px;
+}
+
+.input{
+	margin-left: 40px;
+	width: 420px;	
+}
+
+.btn-mio{
+	background-color: transparent;
+	padding: 12px;
+	margin-top: 50px;
+	font-size: 17px;
+	color: whitesmoke;
+	font-weight: bolder;
+	width: 420px;	
+}
+
+.input-mio{
+	background-color: rgba(0, 0, 0, 0.47);
+	opacity: 0.5;
+	color: whitesmoke;
+
+}
