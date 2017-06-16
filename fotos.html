@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>photos</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/98a73d7745.js"></script>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+</head>
+<body>
+<!-- Seccion de contenedores de imagenes -->
+	<section id="container" ondrop="drop(event)" ondragover="finalDrop(event)">
+		<div id="padre">
+			<div class="marco-foto" id="contiene" ondragover="finalDrop(event)" ondrop="drop(event)"></div>
+		</div>
+	
+	
+<!-- Seccion imagenes -->
+		<div id="fotos-collage">
+			<div class="contenedor">
+				<img id="foto1" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/pug_1.jpg" alt="">							
+			</div>
+			<div class="contenedor">
+				<img id="foto2" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/pug_2.jpg" alt="">	
+			</div>
+			<div class="contenedor">
+				<img id="foto3" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/pug_3.jpg" alt="">					
+			</div>
+			<div class="contenedor">
+				<img id="foto4" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/pug_4.jpg" alt="">					
+			</div>
+			<div class="contenedor">
+				<img id="foto5" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/pug_5.jpg" alt="">				
+			</div>
+			<div class="contenedor">
+				<img id="foto6" class="fotos" draggable="true" ondragstart="drag(event)" src="assets/img/dakota.jpg" alt="">
+			</div>	
+		</div>
+	</section>		
+
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</body>
+</html>
