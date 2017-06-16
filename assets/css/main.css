@@ -7,7 +7,7 @@
 
 #insta{
 	background-image: url(../img/fondo-2.jpg);
-	height: 580px;
+	height: 538px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -15,45 +15,33 @@
 }
 
 
+
 /*****Da diseño al boton dropdrown*******/
-.toggle-mio{
+.toggle-mio {
 	background-color: transparent;
 	color: whitesmoke;
 	border: none;
+	font-size: 10px;
+	padding-right: 91px;
 }
 
 
 /******Da propiedades al logo de instagram*******/
-.imagen-instagram{
-	width: 300px;
-    margin-left: 80px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+.imagen-instagram {
+	width: 218px;
+	margin-left: 37px;
+	margin-top: 26px;
+	margin-bottom: 7px;
 }
-
-
 
 /********Da estilos a los inputs*********/
-.primer-input{
-	margin-bottom: 20px;
+.primer-input {
+	margin-bottom: 15px;
 }
 
-.input{
-	margin-left: 52px;
-	width: 420px;	
-}
-
-
-
-/******Da estilo al boton para iniciar sesión******/
-.btn-mio{
-	background-color: transparent;
-	padding: 12px;
-	margin-top: 50px;
-	font-size: 17px;
-	color: whitesmoke;
-	font-weight: bolder;
-	width: 420px;	
+.input {
+	margin-left: 14px;
+	width: 72%;
 }
 
 .input-mio{
@@ -63,15 +51,33 @@
 }
 
 
+
+/******Da estilo al boton para iniciar sesión******/
+.btn-mio {
+	background-color: transparent;
+	padding: 12px;
+	margin-top: 50px;
+	font-size: 17px;
+	color: whitesmoke;
+	font-weight: bolder;
+	width: 272px;
+	margin-right: 85px;
+}
+
+
 /*****Da estilo a la seccion ayuda con la cuenta******/
-.pregunta{
+.pregunta {
 	margin-top: 20px;
 	color: whitesmoke;
+	width: 321px;
+	padding-left: 39px;
+	font-size: 13px;
 }
 
 .ayuda{
 	font-weight: bolder;
 	color: whitesmoke;
+	font-size: 15px;
 }
 
 
@@ -80,40 +86,35 @@
 	color: whitesmoke;
 }
 
-.fa-circle-o{
+
+.fa-circle-o {
 	position: relative;
 	bottom: 30px;
+	left: -38px;
 }
 
-.fa-facebook-official{
-	font-size: 30px;
+hr{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 0;
+	border-top: 1px solid #eee;
+	width: 292px;
 }
 
-.logo-facebook{
-	display: flex;
+.logo-facebook {
+	width: 271px;
+	padding-left: 74px;
 }
 
+.fa-facebook-official {
+	font-size: 20px;
+}
 
 
 /*****Da estilo al inicio de sesión con facebook******/
-.inicio-sesion-facebook{
+#inicio{
 	color: whitesmoke;
 	padding-left: 10px;
-    padding-top: 9px;
-    font-size: 17px;
-    font-weight: bolder;
-}
-
-.registrate{
-	color: whitesmoke;
- 	font-weight: bolder;	
-}
-
-
-/*******Da estilo al footer*********/
-
-footer{
-	color: whitesmoke;
-	background-color: rgb(60, 21, 66);
-	font-size: 17px;
+	padding-top: 8px;
+	font-size: 12px;
 }

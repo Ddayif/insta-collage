@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 <body>
-	<section id="insta">
-		<div class="container">
+
+		<section class="container" id="insta">
 			<div class="row">
 				<div class="col-xs-12 text-center">
 					<div class="dropdown">
@@ -31,17 +31,13 @@
 				</div>
 			</div><!-- cierra el row -->
 			<div class="row"><!-- comienzan los inputs del usuario y contraseña -->
-			  	<div class="col-xs-12">
-			    	<div class="input-group primer-input input">
+			  	<div class="col-xs-12 primer-input input text-center">
 			      		<input type="text" id="userName" class="form-control input-mio" placeholder="User..." aria-label="...">
-			    	</div><!-- /input-group -->
 			  	</div><!-- /.col-xs-12 -->
 			</div>
 			<div class="row">
-			  	<div class="col-xs-12">
-			    	<div class="input-group segundo-input input">
+			  	<div class="col-xs-12 segundo-input input text-center">
 			      		<input type="text" id="password" class="form-control input-mio" placeholder="Password..." aria-label="...">
-			    	</div><!-- /input-group -->
 			  	</div><!-- /.col-xs-12 -->
 			</div>
 			<div class="row"><!-- comienza el row del boton para iniciar sesion -->
@@ -62,18 +58,29 @@
 				</div>
 			</div>
 			<div class="row"><!-- comienza row con opcion de abrir sesión con facebook -->
-				<div class="col-xs-12 col-xs-offset-2 logo-facebook">
+				<div class="col-xs-12 logo-facebook">
 					<i class="fa fa-facebook-official" aria-hidden="true"></i>
-					<a href="#" class="inicio-sesion-facebook">Iniciar sesión con Facebook</a>
+					<a id="inicio" href="#"> Iniciar sesión con Facebook</a>
 				</div>
 			</div>
-		</div><!-- cierra el contenedor -->
+
+
+
+			<footer>
+        		<div class="container">
+            		<div class="row">
+            			<div class="col-xs-12">
+            			    <p class="ayuda">¿No tienes una cuenta?<a href="#" class="ayuda"> Registrate.</a></p>	
+            			</div>
+            		</div>	
+            	</div>	
+		</footer>
+
 	</section>
+	
 
 <!-- comienza footer -->
-	<footer class="container text-center">
-		<p>¿No tienes una cuenta?<a href="#" class="registrate"> Registrate.</a></p>		
-	</footer>
+	
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
