@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Insta-collage</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
     <script src="https://use.fontawesome.com/98a73d7745.js"></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
@@ -15,7 +15,7 @@
 			<div class="row">
 				<div class="col-xs-12 text-center">
 					<div class="dropdown">
-					    <button class="btn btn-default toggle-mio dropdown-toggle" type="button" data-toggle="dropdown">Idioma:Español(España)
+					    <button class="btn btn-default toggle-mio dropdown-toggle" type="button" data-toggle="dropdown">Idioma: español (España)
 					    <span class="caret"></span></button>
 					    <ul class="dropdown-menu">
 					      <li><a href="#">Ingles</a></li>
@@ -25,12 +25,12 @@
 					</div>
 				</div>
 			</div><!-- cierra el row -->
-			<div class="row">
+			<div class="row"><!-- comienza el row de la imagen de instagram -->
 				<div class="col-xs-12">
-					<img src="assets/img/instagram-logo.png" class="imagen">
+					<img src="assets/img/instagram-logo.png" class="imagen-instagram">
 				</div>
 			</div><!-- cierra el row -->
-			<div class="row">
+			<div class="row"><!-- comienzan los inputs del usuario y contraseña -->
 			  	<div class="col-xs-12 text-center">
 			    	<div class="input-group primer-input input">
 			      		<input type="text" class="form-control input-mio" placeholder="User..." aria-label="...">
@@ -44,15 +44,36 @@
 			    	</div><!-- /input-group -->
 			  	</div><!-- /.col-xs-12 -->
 			</div>
-			<div class="row">
+			<div class="row"><!-- comienza el row del boton para iniciar sesion -->
 				<div class="col-xs-12 text-center">
 					<button type="button" class="btn btn-default btn-mio">Iniciar sesión</button>
 				</div>
 			</div>
+			<div class="row"><!-- comienza row para obtener ayuda con la cuenta -->
+				<div class="col-xs-12 text-center pregunta">
+					<p>¿Has olvidado tu información de incio de sesión?<a href="#" class="ayuda"> Obtén ayuda.</a></p>
+				</div>
+			</div>
 
-
+			<div class="row"><!-- comienza row de separacion -->
+				<div class="col-xs-12 text-center">
+					<hr />
+					<i class="fa fa-circle-o" aria-hidden="true"></i>
+				</div>
+			</div>
+			<div class="row"><!-- comienza row con opcion de abrir sesión con facebook -->
+				<div class="col-xs-12 col-xs-offset-2 logo-facebook">
+					<i class="fa fa-facebook-official" aria-hidden="true"></i>
+					<a href="#" class="inicio-sesion-facebook">Iniciar sesión con Facebook</a>
+				</div>
+			</div>
 		</div><!-- cierra el contenedor -->
 	</section>
+
+<!-- comienza footer -->
+	<footer class="container text-center">
+		<p>¿No tienes una cuenta?<a href="#" class="registrate"> Registrate.</a></p>		
+	</footer>
 
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
